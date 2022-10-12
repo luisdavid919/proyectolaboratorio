@@ -1,11 +1,66 @@
-img {
-    text-align: center;
+body {
+    background-color: #ffffff;
 }
+.caja1 {
+    float: left;
+}
+.caja2 {
+    float: right;
+}
+#img1 {
+    width: 220px;
+    height: 160px;
+    padding: 0px 50px;
 
+}
+#img2{
+    width: 280px;
+    height: 160px;
+    padding: 0px 50px;
+}
+h1{
+    text-align: center;
+    color: #000000;
+    
+}
+.color {
+    background-color:#267CBF;
+    width: auto;
+    height: 160px;
+}
 H2{
     text-align: center;
     background-color: rgb(22, 192, 219);
 }
+
+form {
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.inputContainer {
+    position: relative;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+.input {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
 
 #titulo{
     background-color: blueviolet !important;
@@ -16,5 +71,18 @@ H2{
 }
 
 #boton{
-    background-color: yellow;
+    background-color: rgba(238, 238, 216, 0.582);
+}
+footer {
+    text-align: center;
+}
+.fondo {
+    background: #ffffff;
+    border-top: #000000;
+    border: 2px solid;
+    width: auto;
+    height: 140px;
+}
+.redes {
+    text-align: left;
 }

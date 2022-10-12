@@ -1,7 +1,12 @@
+body {
+  background-color: #004B87
+}
 h1{
     text-align: center;
+    color: #000000;
 }
 form {
+    margin: auto;
     background-color: white;
     width: 400px;
     border-radius: 8px;
@@ -10,15 +15,15 @@ form {
 }
 .inputContainer {
     position: relative;
-    height: 45px;
+    height: 40px;
     width: 90%;
     margin-bottom: 17px;
   }
 .input {
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 0px;
-    height: 100%;
+    height: 90%;
     width: 100%;
     border: 1px solid #DADCE0;
     border-radius: 7px;
